@@ -1,4 +1,4 @@
 function solution(numbers) {
-  let sum = numbers.reduce((acc,cur)=>acc+cur,0)
-    return sum/ numbers.length;
+  let avg = numbers.reduce((acc,cur)=>acc+cur,0) / numbers.length
+    return avg;
 }
