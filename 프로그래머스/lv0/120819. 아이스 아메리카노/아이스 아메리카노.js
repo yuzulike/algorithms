@@ -1,5 +1,4 @@
 function solution(money) {
-    let americano = Math.floor(money/5500);
-    var answer = [americano, money - (5500*americano)];
+    var answer = [Math.floor(money/5500), money % 5500];
     return answer;
 }
