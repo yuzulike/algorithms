@@ -8,6 +8,5 @@ function solution(number) {
             if(newNum.length) answer += newNum.length ;
         }
     }
-    console.log(answer)
     return answer;
 }
