@@ -3,9 +3,9 @@ function solution(s)  {
  let array = s.split('').map(item=>{return(item==="("? 1:-1)});
     let calcArray = [];
     let sum = 0;
-    for (let i=0; i<array.length; i++){
-        calcArray.push(array[i])
-         sum += array[i];
+    for (let value of array){
+        calcArray.push(value)
+         sum += value;
         if(sum<0) return false
     }
     return sum === 0;
